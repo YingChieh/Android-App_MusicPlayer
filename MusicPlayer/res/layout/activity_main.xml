@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imagekassy"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:src="@drawable/kassy_key_the_raindogg" />
+
+    <TextView
+        android:id="@+id/txtMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="點選歌名即可播放"
+        android:textSize="20sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    
+    android:text="歌曲清單："
+    android:textSize="16sp" />
+
+<ListView
+    android:id="@+id/lstMusic"
+    android:layout_width="match_parent"
+    android:layout_height="146dp" />
+
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgEnd"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:src="@drawable/end" />
+
+    <ImageView
+        android:id="@+id/imgFront"
+        android:layout_width="52dp"
+        android:layout_height="50dp"
+        android:src="@drawable/front" />
+
+  <ImageView
+  android:id="@+id/imgStop" 
+  android:layout_width="52dp"
+  android:layout_height="50dp"  
+  android:src="@drawable/stop" />  
+  <ImageView
+  android:id="@+id/imgPlay" 
+  android:layout_width="52dp"
+  android:layout_height="50dp"  
+  android:src="@drawable/play" />
+  <ImageView
+  android:id="@+id/imgPause" 
+  android:layout_width="52dp"
+  android:layout_height="50dp"  
+  android:src="@drawable/pause" />
+
+  <ImageView
+      android:id="@+id/imgNext"
+      android:layout_width="52dp"
+      android:layout_height="50dp"
+      android:src="@drawable/next" />
+
+</LinearLayout>
+
+</LinearLayout>
